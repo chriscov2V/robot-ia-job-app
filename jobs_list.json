@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "entreprise": "Fnac",
+        "poste": "Conseiller de vente Micro-Informatique",
+        "description": "Nous recherchons un vendeur passionné par la tech pour conseiller nos clients sur l'espace ordinateurs et tablettes. Accueil, démonstration et vente de services (garanties, cartes de fidélité). Profil dynamique, sens du contact. Expérience en vente exigée."
+    },
+    {
+        "id": 2,
+        "entreprise": "Directeur Régional Grand Ouest",
+        "poste": "Directeur Régional des Ventes",
+        "description": "Rattaché au DG, vous pilotez un réseau de 25 magasins. Vous justifiez d'un diplôme de grande école de commerce (Bac+5) et de 10 ans d'expérience minimum en direction régionale dans le retail. Gestion des budgets de plusieurs millions d'euros, management de 150 personnes."
+    },
+    {
+        "id": 3,
+        "entreprise": "Apple Store",
+        "poste": "Spécialiste Vente",
+        "description": "En tant que Spécialiste, vous aidez les clients à découvrir les produits Apple. Vous cernez leurs besoins et proposez les solutions adaptées. Vous avez d'excellentes qualités relationnelles et aimez travailler en équipe. Une expérience chez un grand distributeur est un plus."
+    }
+]

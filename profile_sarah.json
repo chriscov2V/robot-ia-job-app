@@ -1,0 +1,13 @@
+{
+    "nom": "Sarah Connor",
+    "metier": "Développeuse Fullstack Python",
+    "competences": ["Python", "Django", "Bases de données SQL", "Git", "JavaScript"],
+    "experiences": [
+        {
+            "poste": "Développeuse Backend",
+            "entreprise": "TechCorp",
+            "duree": "3 ans",
+            "description": "Développement d'applications web en Python et gestion des bases de données."
+        }
+    ]
+}

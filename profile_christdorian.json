@@ -1,0 +1,59 @@
+{
+  "metier_recherche": "Conseiller de vente / Chargé de clientèle / Logistique",
+  "nom_candidat": "Christdorian Ouakoube",
+  "diplome_maximum": "Bac STMG / CQP Chargé d'accueil",
+  "competences_cles": [
+    "Orientation client",
+    "Capacité d'écoute active",
+    "Empathie",
+    "Préparation de commande",
+    "Encaissement et facturation",
+    "Gestion des stocks et approvisionnement",
+    "Accueil physique et téléphonique",
+    "Logistique marchandise"
+  ],
+  "derniers_postes": [
+    {
+      "entreprise": "U express Levallois",
+      "titre": "Agent Magasinier",
+      "duree": "Depuis Décembre 2025",
+      "missions": "Préparation de commande, encaissement et logistique marchandise."
+    },
+    {
+      "entreprise": "Carrefour Le Vésinet",
+      "titre": "Agent Magasinier / Préparateur de commande",
+      "duree": "Septembre 2025 - Novembre 2025",
+      "missions": "Préparation de commande via différents devis pour Uber et Deliveroo. Enregistrement, rangement et livraison des colis. Réception de marchandise."
+    },
+    {
+      "entreprise": "Quick Nîmes",
+      "titre": "Équipier Polyvalent en restauration rapide",
+      "duree": "Septembre 2024 - Novembre 2024",
+      "missions": "Prise de commande, conseil clientèle. Préparation des plats et emballage. Nettoyage et remise en état des salles."
+    },
+    {
+      "entreprise": "Boulanger Paris 09",
+      "titre": "Conseiller de vente / Hôte de caisse",
+      "duree": "Novembre 2023 - Juin 2024",
+      "missions": "Accueil, conseil sur les produits multimédias. Encaissement et réalisation de factures. Réception, déballage des marchandises et gestion des stocks."
+    },
+    {
+      "entreprise": "Penelope Paris 09",
+      "titre": "Chargé d'accueil",
+      "duree": "Septembre 2022 - Juin 2023",
+      "missions": "Accueil physique et téléphonique, édition de badges."
+    }
+  ],
+  "outils_informatiques": [
+    "Word (Intermédiaire)",
+    "Excel (Intermédiaire)"
+  ],
+  "langues": [
+    "Anglais (Intermédiaire)"
+  ],
+  "preferences": {
+    "type_contrat": "CDD / CDI",
+    "localisation": "Île-de-France / Chatou",
+    "secteurs_interets": ["Commerce", "Accueil", "Distribution", "Logistique"]
+  }
+}
