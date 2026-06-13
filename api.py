@@ -18,7 +18,6 @@ client = OpenAI(api_key=api_key)
 app = FastAPI(title="Moteur de Candidature IA - Production")
 
 # 2. SÉCURITÉ CORS (Étape 0 indispensable pour Bubble)
-# On autorise toutes les origines (*) pour le développement, ce qui permettra à Bubble de se connecter sans blocage.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], 
@@ -54,6 +53,7 @@ def analyser_offre(donnees: RequeteCandidat):
     - "score": nombre entier entre 0 et 100.
     - "verdict": "Postuler" ou "Passer".
     - "lettre": une lettre de motivation personnalisée et percutante.
+    - "suggestions": une liste (tableau) de 3 métiers ou types d'emplois alternatifs recommandés qui correspondent PARFAITEMENT aux vraies compétences du profil du candidat (surtout utile si le score est bas).
     """
 
     try:
@@ -74,7 +74,8 @@ def analyser_offre(donnees: RequeteCandidat):
             "statut": "succes",
             "score": int(resultat_json.get("score", 0)),
             "verdict": resultat_json.get("verdict", "Passer"),
-            "lettre": resultat_json.get("lettre", "")
+            "lettre": resultat_json.get("lettre", ""),
+            "suggestions": resultat_json.get("suggestions", [])
         }
         
     except Exception as e:
